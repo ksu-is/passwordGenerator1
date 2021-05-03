@@ -1,0 +1,44 @@
+password generator:
+
+user will input name of the application and
+the length(atleast 8) of the password to be generated.
+
+problem: 
+passwords are a pain to remember, too many emails and platforms
+having the same password is not safe
+but having a different one for all would be easy to forget
+examples: D2L, facebook, instagram, twitter
+
+solution:
+generates passwords based on user input 
+the password include 1 special character, 1 upper case character
+atleast 8 characters, and 1 number.
+
+
+password_gen = accepts string
+
+FaceBook
+koobecaf
+Koobecaf
+Koobec@f
+K00bec@f
+K00b#c@f
+
+zoom
+mooz_1
+Mooz_2
+M00z_3
+M00z#3
+M00z#3M00z#3
+
+------------------
+✔️reverse the word 
+✔️first char = U_case
+✔️replace a = @
+✔️replace o = 0
+✔️every 5th char = #
+✔️if length of app is less than 8, duplicate 
+✔️if length of app name is less than 8, we duplicate atleast once.
+we add 0s to meet up with the user's desired length.
+
+
